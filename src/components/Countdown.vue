@@ -38,7 +38,7 @@ const state = reactive({
 });
 
 // 定时器实例
-let intervalId; 
+let intervalId = '';
 
 const dateCountDown = () => {
     let nowTime = new Date().getTime(); //现在时间
